@@ -1,0 +1,29 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+ .app
+ {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    padding: 25px;
+    transition: 2s ease all;
+    background-color: white;
+    margin-top: 2%;
+    text-align: center;
+ }
+
+ .app:hover
+ {
+    height: 300px;
+    width: 300px;
+    background-color:rgb(135, 180, 222);
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+ }

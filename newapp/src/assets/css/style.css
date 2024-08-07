@@ -1,0 +1,72 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+.container{
+    height: 80px;
+    width: 900px;
+    background-color: rgb(243, 205, 144);
+    margin: 10px 0px 0px 230px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 35px;
+    
+}
+.box{
+    height: 65px;
+    width: 65px;
+    background-color:chocolate;
+    border: 1px solid rgb(17, 17, 29);
+    border-radius: 10px;
+    transition: all 3s ease;
+    position: absolute;
+    margin: 8px 10px 22px 15px;
+    left: 0;
+    right: 0;
+}
+.container:hover .box{
+    animation-name: sliderRight;
+    left: 800px;
+    background-color: rgb(117, 87, 187);
+    border-radius: 50%;
+    animation-play-state: running;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    font-size: 2.3rem;
+}
+
+
+/* @keyframes sliderRight {
+        0% {
+          transform: translateX(0px);
+          background-color: magenta;
+          border-radius: 24px;
+        }
+        25% {
+          transform: translate(800px, -80px);
+          background-color: brown;
+          border-radius: 48px;
+        }
+        50% {
+          transform: translateX(800px, 100px);
+          background-color: chocolate;
+          border-radius: 48px;
+        }
+
+        75% {
+          transform: translate(800px, 100px);
+          background-color: aqua;
+          border-radius: 50%;
+        }
+        100% {
+          transform: translate(0px, 100px);
+          background-color: yellowgreen;
+          border-radius: 0;
+        }
+    } */
+
